@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "## Anwser the below questions?",
+      "type": "text",
+      "id": "Field_0hjfavy"
+    },
+    {
+      "label": "Return the Sum of Two Numbers?",
+      "type": "textfield",
+      "id": "Field_1pge6zm",
+      "key": "Q1",
+      "validate": {
+        "required": true,
+        "regularExpressionPattern": "^[1-9]+[0-9]*$"
+      }
+    },
+    {
+      "label": "Is the String Empty?",
+      "type": "textfield",
+      "id": "Field_1trfuq9",
+      "key": "Q2",
+      "validate": {
+        "required": true,
+        "regularExpressionPattern": "^[a-zA-Z]$"
+      }
+    },
+    {
+      "label": "Convert Minutes into Seconds?",
+      "type": "textfield",
+      "id": "Field_02xzlnl",
+      "key": "Q3",
+      "validate": {
+        "required": true,
+        "regularExpressionPattern": "^[-+]?[0-9]+[.]?[0-9]*([eE][-+]?[0-9]+)?$"
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Assessment"
+}
